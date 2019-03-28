@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  /*text-align: center;
+  flex-direction: row;
+  margin: 1%;*/
+}
+
+.logo {
+  width: 10%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  height: 300px;
+  padding: 10px;
+  color: #40E0D0;
+}
+
+.App-title {
+  font-size: 3.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.botoes {
+  background: #40e1cf;
+  border: 0px solid #999;
+  float: center;
+  font-size: 150%;
+  font-weight: bold;
+  line-height: 720%;
+  /*height: 94%;*/
+  margin: 1%;
+  padding: 0;
+  text-align: center;
+  width: 48%;
+}
+
+.botoes-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+ 
+ .botoes-row:focus{
+  outline:none;
+ }
+
+ .cabecalho {
+  background: #40e1cf;
+  border: 5px solid #999;
+  line-height: 350%
+ }
